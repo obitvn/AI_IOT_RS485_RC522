@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"ai_iot_rs485_rc522\startup_stm32f103xe.o"
+"ai_iot_rs485_rc522\obitstring.o"
+"ai_iot_rs485_rc522\rc522.o"
+"ai_iot_rs485_rc522\main.o"
+"ai_iot_rs485_rc522\stm32f1xx_it.o"
+"ai_iot_rs485_rc522\stm32f1xx_hal_msp.o"
+"ai_iot_rs485_rc522\stm32f1xx_hal_gpio_ex.o"
+"ai_iot_rs485_rc522\stm32f1xx_hal_spi.o"
+"ai_iot_rs485_rc522\stm32f1xx_hal_spi_ex.o"
+"ai_iot_rs485_rc522\stm32f1xx_hal_tim.o"
+"ai_iot_rs485_rc522\stm32f1xx_hal_tim_ex.o"
+"ai_iot_rs485_rc522\stm32f1xx_hal_uart.o"
+"ai_iot_rs485_rc522\stm32f1xx_hal.o"
+"ai_iot_rs485_rc522\stm32f1xx_hal_rcc.o"
+"ai_iot_rs485_rc522\stm32f1xx_hal_rcc_ex.o"
+"ai_iot_rs485_rc522\stm32f1xx_hal_gpio.o"
+"ai_iot_rs485_rc522\stm32f1xx_hal_dma.o"
+"ai_iot_rs485_rc522\stm32f1xx_hal_cortex.o"
+"ai_iot_rs485_rc522\stm32f1xx_hal_pwr.o"
+"ai_iot_rs485_rc522\stm32f1xx_hal_flash.o"
+"ai_iot_rs485_rc522\stm32f1xx_hal_flash_ex.o"
+"ai_iot_rs485_rc522\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "AI_IOT_RS485_RC522\AI_IOT_RS485_RC522.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "AI_IOT_RS485_RC522.map" -o AI_IOT_RS485_RC522\AI_IOT_RS485_RC522.axf
